@@ -1,0 +1,116 @@
+:root{
+    --primary: #3a76f7;
+}
+
+/* .btn{
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: bisque;
+    transition: 250ms;
+}
+
+.btn--primary{
+    background-color: var(--primary);
+}
+
+.btn--outline{
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.btn--medium{
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.btn--large{
+    color: #fff;
+    padding: 12px 26px;
+    border-radius: 4px;
+    font-size: 20px;
+} */
+
+.authOp{
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: rgb(248, 248, 248);
+    background: rgb(255, 0, 0);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.authOp:hover{
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: rgb(23, 0, 233);
+    color: rgb(133, 75, 5);
+    transition: 250ms;
+}
+
+.authOp--primary{
+    background-color: var(--primary);
+}
+
+.authOp--outline{
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.authOp--medium{
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.authOp--large{
+    color: #fff;
+    padding: 12px 26px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+@media screen and (max-width: 1100px){
+
+    .authOp{
+        display: none;
+    }
+
+    /* .authOp{
+        display: block;
+        text-align: center;
+        padding: 0.7rem;
+        margin: 0.7rem auto;
+        border-radius: 4px;
+        width: 80%;
+        background: #ee2929;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    .authOp:hover{
+        background: #fff;
+        color: aqua;
+        transition: 250ms;
+    } */
+}

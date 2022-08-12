@@ -1,0 +1,118 @@
+/* form {border: 5px solid #f1f1f1; width: 500px; margin: auto;} */
+#frm1{
+  border: 5px solid #f1f1f1; width: 500px; margin: auto;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 18px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  #btn12 {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  #btnl{
+    background-color: #e04b06;
+    color: white;
+    padding: 4px 20px;
+    margin: 8px 45%;
+    border: none;
+    cursor: pointer;
+    width: 5%;
+    border-radius: 5px;
+    justify-content: center;
+  }
+
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .cont {
+    padding: 16px;
+    background-color: #e9e5e5;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+
+  .head1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    font-size:30px
+  }
+
+  .cn{
+    background-color: #bdb9b9;
+    padding: 16px;
+  }
+
+  .error-notice{
+    margin: 1rem auto;
+    padding:  0.5rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid #e07c7c;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8d6d6;
+  }
+
+  .error-notice button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #df4343;
+    color: #ffffff;
+  }
+
+  #cacc{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 1100px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }

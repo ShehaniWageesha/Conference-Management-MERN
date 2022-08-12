@@ -1,0 +1,75 @@
+#file{
+    padding-left: 10px;
+}
+
+#frm-resarch{
+    border: 5px solid #e7e6e6; width: 900px; margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.upload-section{
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.upload-section > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+#sbtbtn{
+    width: 300px;
+    margin: auto;
+    display: grid;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-color: rgb(59, 234, 247);
+    color: rgb(14, 5, 5);
+    border-color: rgb(59, 234, 247);
+}
+
+#sbtbtn:hover{
+    color: rgb(227, 240, 49);
+    background-color: #fd5609c4;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+    border-color: #fd5609c4;
+}
+
+.cn21{
+    text-align: center;
+    padding-right: 570px;
+    font-size: 30px;
+    margin: auto;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* .drop-zone{
+    margin-left: 10px;
+    margin-right: 100px;
+    background-color: rgb(186, 194, 191);
+    border: 2px solid #838080;
+    padding-left: 10px;
+    width: 800px;
+    height: 100px;
+} */
+
+/* .image-preview
+.preview-message */
+/* .preview-image{
+    margin: auto;
+    background-color: rgb(186, 194, 191);
+    border: 2px solid #838080;
+    height: 30px;
+} */
