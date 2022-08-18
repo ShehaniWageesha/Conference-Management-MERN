@@ -56,7 +56,7 @@ const Reviwer = () => {
 
   return (
     <div className="files-container">
-       <h1 id="viewid">Reviwe Research Papers Hear</h1>
+       <h1 id="viewid">Review Research Papers Here</h1>
       {errorMsg && <p className="errorMsg">{errorMsg}</p>}
       <table className="files-table" id="t01">
         <thead>
