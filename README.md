@@ -3,12 +3,27 @@
 This application implemented using MERN stack. React for front-end development and back-end server based on Node.js, Express, and MongoDB.
 <br/><br/>
 
-* Clone the repository
+Functions
+
+* Login and Registration
+
+* Upload research papers
+
+* Upload workshop proposals
+
+* Add conference details
+
+* Approve conference details
+
+* Payment
+<br/>
+
+Clone the repository
 ```sh
 git clone https://github.com/ShehaniWageesha/Conference-Management-MERN.git
 ```
 
-* Run these commands for both client and server side to start the app
+Run these commands for both client and server side to start the app
 
 ```sh
 npm install
